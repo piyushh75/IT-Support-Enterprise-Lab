@@ -7,7 +7,7 @@
 
 > **Professional IT support laboratory demonstrating Active Directory administration, help desk operations, remote support, and systematic troubleshooting.**
 
-**Portfolio Project by [Piyush Arora]** | [LinkedIn](www.linkedin.com/in/piyush-arora07) | [Email](piyusharora480@gmail.com)
+**Portfolio Project by Piyush Arora** | www.linkedin.com/in/piyush-arora07 | piyusharora480@gmail.com
 
 ---
 
