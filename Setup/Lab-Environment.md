@@ -16,6 +16,8 @@ This document details the infrastructure built to simulate a corporate IT networ
 * **IP Address:** `10.0.2.10` (Static)
 * **DNS:** `127.0.0.1` (Loopback)
 
+![Server Config Proof](screenshots/server-config-proof.png)
+
 ## 4. Client Configuration (CLIENT01)
 * **OS:** Windows 10 Pro
 * **Hostname:** `CLIENT01`
