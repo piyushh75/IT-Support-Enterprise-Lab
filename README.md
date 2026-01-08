@@ -23,9 +23,8 @@
 
 ---
 
-## 🎯 What This Lab Demonstrates
+## 🎯 Technical Skills Demonstrated-
 
-### Technical Skills
 ✅ **Active Directory** - User/group management, OUs, permissions  
 ✅ **Windows Server** - Installation, configuration, domain services  
 ✅ **Help Desk Operations** - Ticket workflows, user support  
@@ -52,12 +51,6 @@
 │  (DNS, DHCP, AD DS)     │          │  (Domain Joined)        │
 └─────────────────────────┘          └─────────────────────────┘
 ```
-
-**Organizational Structure:**
-- **5 Departments:** IT, Finance, Sales, HR, Marketing
-- **12 Users:** Distributed across departments
-- **9 Security Groups:** Role-based access control
-- **6 Shared Folders:** Department and company-wide shares
 
 ---
 
@@ -113,8 +106,6 @@
 **Remote Access:** Remote Desktop Protocol (RDP)  
 **Documentation:** Markdown, Git/GitHub  
 
----
-**Target Roles:** IT Support Analyst | Help Desk Technician | Desktop Support | Junior System Administrator
 ---
 
 ## 📞 Contact
