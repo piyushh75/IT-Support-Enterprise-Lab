@@ -114,10 +114,7 @@
 **Documentation:** Markdown, Git/GitHub  
 
 ---
-
-
 **Target Roles:** IT Support Analyst | Help Desk Technician | Desktop Support | Junior System Administrator
-
 ---
 
 ## 📞 Contact
