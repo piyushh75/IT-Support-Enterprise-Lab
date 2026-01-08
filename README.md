@@ -84,7 +84,7 @@ Network: 10.0.2.0/24 (NAT Network)
 Complete walkthrough of building the lab from scratch
 
 ### Active Directory Tasks
-1. **[User Account Creation](Active-Directory/01-User-Creation.md)** - New employee onboarding
+1. **[User Account Creation & Password Reset](Active-Directory/01-User-Creation-And-Password-Reset.md)** - New employee onboarding
 2. **[Password Reset & Unlock](Active-Directory/02-Password-Reset.md)** - Account recovery procedures
 3. **[Group Management](Active-Directory/03-Group-Management.md)** - Security group administration
 4. **[Shared Folder Permissions](Active-Directory/04-Shared-Folders.md)** - NTFS & Share permissions
