@@ -1,7 +1,7 @@
 # 🔧 Remote Desktop Protocol (RDP) Configuration
 
 ## 1. Ticket Overview
-**Ticket ID:** TICK-002
+**Ticket ID:** TRB-001
 **Request:** IT Management requires remote administration capabilities for all client workstations.
 **Issue:** Default Windows security settings block incoming remote connections.
 
