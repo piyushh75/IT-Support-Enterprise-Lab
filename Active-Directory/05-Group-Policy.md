@@ -20,8 +20,3 @@
 * **Action:** Forced immediate policy update via Command Prompt.
 * **Command:** `gpupdate /force`
 * **Verification:** Signed out and verified the Legal Notice popup appeared before the password prompt.
-
-## 3. Verification
-The security banner is now active, satisfying the corporate compliance requirement.
-
-![GPO Legal Notice Proof](screenshots/gpo-legal-notice-proof.png)
