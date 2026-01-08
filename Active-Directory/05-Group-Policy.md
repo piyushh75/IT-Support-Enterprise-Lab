@@ -14,6 +14,8 @@
     * **Interactive logon: Message title:** "IT SECURITY ALERT"
     * **Interactive logon: Message text:** "AUTHORIZATION REQUIRED. Usage is monitored..."
 
+![Group Policy Configuration](screenshots/group-policy-management.png)
+
 ### B. Deployment & Testing (CLIENT01)
 * **Action:** Forced immediate policy update via Command Prompt.
 * **Command:** `gpupdate /force`
