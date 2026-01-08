@@ -1,4 +1,3 @@
-**FIXES NEEDED**
 # 🖥️ Enterprise IT Support & Active Directory Lab
 
 ![Status](https://img.shields.io/badge/status-complete-success)
@@ -38,13 +37,6 @@
 ✅ **Troubleshooting** - Systematic problem-solving approach  
 ✅ **MS Office365** - Office365 tools usage and configuration
 
-### Professional Skills
-✅ Technical documentation  
-✅ Customer service communication  
-✅ Root cause analysis  
-✅ Time management  
-✅ Self-directed learning  
-
 ---
 
 ## 🏗️ Lab Topology
@@ -59,6 +51,7 @@
 │  IP: 10.0.2.10          │          │  IP: DHCP (10.0.2.x)    │
 │  (DNS, DHCP, AD DS)     │          │  (Domain Joined)        │
 └─────────────────────────┘          └─────────────────────────┘
+```
 
 **Organizational Structure:**
 - **5 Departments:** IT, Finance, Sales, HR, Marketing
@@ -70,29 +63,44 @@
 
 ## 📚 Documentation
 
-### [Setup Guide](Setup/Lab-Environment.md)
-Complete walkthrough of building the lab from scratch
+### 🔹 Phase 1: Infrastructure Setup
+* **[Lab Environment Documentation](Setup/Lab-Environment.md)**
+    * *Detailing the hypervisor configuration, network topology, and server promotion process.*
 
-### Active Directory Tasks
-1. **[User Account Creation & Password Reset](Active-Directory/01-User-Creation-And-Password-Reset.md)** - New employee onboarding
-2. **[Password Reset & Unlock](Active-Directory/02-Password-Reset.md)** - Account recovery procedures
-3. **[Group Management](Active-Directory/03-Group-Management.md)** - Security group administration
-4. **[Shared Folder Permissions](Active-Directory/04-Shared-Folders.md)** - NTFS & Share permissions
-5. **[Group Policy Configuration](Active-Directory/05-Group-Policy.md)** - Drive mapping automation
+### 🔹 Phase 2: Active Directory Administration
+* **[01. User Onboarding](Active-Directory/01-User-Creation.md)**
+    * *Creating users, assigning departmental OUs, and security groups.*
+* **[02. Security & Password Management](Active-Directory/02-Password-Reset.md)**
+    * *Handling account lockouts and enforcing password complexity policies.*
+* **[03. Group Management (RBAC)](Active-Directory/03-Group-Management.md)**
+    * *Implementing Role-Based Access Control using Security Groups.*
+* **[04. File Server & Shared Drives](Active-Directory/04-Shared-Folders.md)**
+    * *Configuring SMB shares and mapping network drives (Z:) for departments.*
+* **[05. Group Policy (GPO)](Active-Directory/05-Group-Policy.md)**
+    * *Enforcing corporate compliance (Legal Banners) via Group Policy Objects.*
+* **[06. Enterprise Printer Deployment](Active-Directory/06-Printer-Deployment.md)**
+    * *Deploying shared print queues and publishing them to the Directory.*
 
-### Troubleshooting Scenarios
-1. **[Shared Drive Access Issues](Troubleshooting/01-Shared-Drive-Access.md)** - Cached credentials
-2. **[Account Lockout](Troubleshooting/02-Account-Lockout.md)** - Investigation & resolution
-3. **[Slow Computer Performance](Troubleshooting/03-Slow-Computer.md)** - System optimization
-4. **[Login Failures](Troubleshooting/04-Login-Issues.md)** - Authentication troubleshooting
-5. **[Network Connectivity](Troubleshooting/05-Network-Problems.md)** - TCP/IP diagnostics
-6. **[Network Printer Setup](Troubleshooting/06-Printer-Setup.md)** - Print services configuration
-7. **[Remote Desktop Support](Troubleshooting/07-RDP-Remote-Support.md)** - RDP troubleshooting
+### 🔹 Phase 3: Technical Troubleshooting (Tier 2 Support)
+* **[01. Remote Support (RDP)](Troubleshooting/01-RDP-Remote-Support.md)**
+    * *Configuring Remote Desktop Protocol for secure administration.*
+* **[02. Drive Access Failure](Troubleshooting/02-Shared-Drive-Access-Issue.md)**
+    * *Diagnosing missing network drives and permission errors.*
+* **[03. Network Connectivity / DNS](Troubleshooting/03-Network-Problems.md)**
+    * *Fixing "Internet works but Company Files don't" (DNS Resolution Failure).*
+* **[04. Performance Tuning](Troubleshooting/04-Slow-Computer.md)**
+    * *Identifying and terminating "Rogue Processes" causing High CPU usage.*
+* **[05. Login & Authentication Errors](Troubleshooting/05-Login-Issues.md)**
+    * *Resolving Domain Trust and Time Synchronization (NTP) drifts.*
 
-### [PowerShell Scripts](Scripts/)
-- **Create-Users.ps1** - Bulk user provisioning
-- **Reset-Password.ps1** - Automated password reset
-- **Get-UserInfo.ps1** - User account auditing
+---
+
+## 🛠️ Resources & Skills Inventory
+*Detailed documentation of my technical skillset beyond the lab.*
+
+* **[Hardware Diagnosis Skills](Resources/Hardware-Skills.md)** (RAM, SSD, Peripherals)
+* **[Microsoft 365 & Office Support](Resources/Office365-Support.md)** (Outlook, Teams, OneDrive)
+* **[IT Support Cheat Sheet](Resources/Cheat-Sheet.md)** (My daily reference for CLI commands)
 
 ---
 
@@ -103,30 +111,10 @@ Complete walkthrough of building the lab from scratch
 **Directory Services:** Active Directory Domain Services  
 **Network Services:** DNS, DHCP, File Services, Print Services  
 **Remote Access:** Remote Desktop Protocol (RDP)  
-**Scripting:** PowerShell 5.1  
 **Documentation:** Markdown, Git/GitHub  
 
 ---
 
-## 🚀 Key Accomplishments
-
-✅ Built enterprise AD environment from scratch  
-✅ Configured domain services (DNS, DHCP, File/Print)  
-✅ Implemented role-based access control  
-✅ Documented 12 real-world IT support scenarios  
-✅ Created automation scripts for common tasks  
-✅ Established remote support infrastructure  
-✅ Demonstrated systematic troubleshooting methodology  
-
----
-
-## 💼 Why This Project
-
-This lab was built to:
-- **Demonstrate practical skills** for IT Support/Help Desk roles
-- **Showcase technical knowledge** beyond theoretical learning
-- **Provide interview talking points** with real examples
-- **Prove ability to learn independently** and document professionally
 
 **Target Roles:** IT Support Analyst | Help Desk Technician | Desktop Support | Junior System Administrator
 
@@ -134,24 +122,8 @@ This lab was built to:
 
 ## 📞 Contact
 
-**Piyush Arora**  
-📧 piyusharora@gmail.com  
-💼 [LinkedIn Profile](https://linkedin.com/in/piyush-arora07)  
-📍 Melbourne, Victoria, Australia  
-
-**Status:** Actively seeking IT Support opportunities in Melbourne or remote
-
----
-
-## 📝 License
-
-This project is for educational and portfolio purposes.
-
----
-
-<div align="center">
-
-### ⭐ If this helped you, consider giving it a star!
+Piyush Arora | Melbourne, VIC
+📧 piyusharora480@gmail.com
 
 **Last Updated:** January 2026
 
