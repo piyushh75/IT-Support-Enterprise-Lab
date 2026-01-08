@@ -19,6 +19,8 @@ Provision a new Active Directory user account with specific organizational place
 * **Full Name:** Sarah Jones
 * **Department:** HR
 
+![New User Creation](screenshots/new-user-creation.png)
+
 ### C. Security Configuration
 * **Password:** Set temporary initial password.
 * **Policy Enforced:** Checked "User must change password at next logon".
@@ -27,4 +29,4 @@ Provision a new Active Directory user account with specific organizational place
 ## 4. Verification
 Attempted login on **CLIENT01** as `sjones`. Windows successfully blocked access until the password was changed.
 
-![Password Policy Enforcement](screenshots/password-policy-proof.png)
+
