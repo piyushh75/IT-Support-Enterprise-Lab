@@ -11,6 +11,8 @@
 * **Sharing:** Enabled SMB Sharing with permissions set for Domain Users.
 * **UNC Path:** `\\DC01\CompanyData`
 
+![Shared Folder Permissions](screenshots/permissions-for-company-data-DC01.png)
+
 ### B. Client Mapping (CLIENT01)
 * **Action:** Mapped Network Drive manually (simulating Group Policy Preferences).
 * **Drive Letter:** Assigned `Z:` drive for consistency.
