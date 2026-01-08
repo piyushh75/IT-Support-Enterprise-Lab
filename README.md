@@ -145,9 +145,9 @@ This lab was built to:
 
 ## 📞 Contact
 
-**[Your Name]**  
-📧 your.email@example.com  
-💼 [LinkedIn Profile](https://linkedin.com/in/yourprofile)  
+**Piyush Arora**  
+📧 piyusharora@gmail.com  
+💼 [LinkedIn Profile](https://linkedin.com/in/piyush-arora07)  
 📍 Melbourne, Victoria, Australia  
 
 **Status:** Actively seeking IT Support opportunities in Melbourne or remote
@@ -164,6 +164,6 @@ This project is for educational and portfolio purposes.
 
 ### ⭐ If this helped you, consider giving it a star!
 
-**Last Updated:** December 2024
+**Last Updated:** January 2026
 
 </div>
