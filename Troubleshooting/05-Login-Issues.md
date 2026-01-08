@@ -16,5 +16,6 @@ Opened Command Prompt as Administrator and ran:
 ```cmd
 w32tm /resync
 Result: "The command completed successfully."
+```
 
 Outcome: User login succeeded immediately after time correction.
