@@ -1,3 +1,4 @@
+**FIXES NEEDED**
 # 🖥️ Enterprise IT Support & Active Directory Lab
 
 ![Status](https://img.shields.io/badge/status-complete-success)
