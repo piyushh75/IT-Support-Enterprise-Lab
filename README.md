@@ -6,9 +6,10 @@
 ![Server](https://img.shields.io/badge/server-Windows%202022-blue)
 ![Client](https://img.shields.io/badge/client-Windows%2010-blue)
 
-> **Professional IT support laboratory demonstrating Active Directory administration, help desk operations, remote support, and systematic troubleshooting.**
+> **Professional IT support laboratory demonstrating Active Directory administration, help desk operations, remote support, systematic troubleshooting, MS Office365 skills and hardware troubleshooting.**
 
-**Portfolio Project by Piyush Arora** | www.linkedin.com/in/piyush-arora07 | piyusharora480@gmail.com
+**Portfolio Project by Piyush Arora**
+[LinkedIn Profile](https://www.linkedin.com/in/piyush-arora07) | piyusharora480@gmail.com
 
 ---
 
@@ -17,11 +18,9 @@
 | Component | Details |
 |-----------|---------|
 | **Domain Controller** | Windows Server 2022 |
-| **Client Workstations** | 2x Windows 10 Pro |
+| **Client Workstations** | Windows 10 Pro |
 | **Domain** | companylab.local |
-| **Users** | 12 across 5 departments |
-| **Documented Scenarios** | 12 real-world situations |
-| **PowerShell Scripts** | 3 automation tools |
+| **Documented Scenarios** | 11 real-world situations |
 
 ---
 
@@ -37,6 +36,7 @@
 ✅ **Group Policy** - Centralized configuration management  
 ✅ **PowerShell** - Automation and scripting  
 ✅ **Troubleshooting** - Systematic problem-solving approach  
+✅ **MS Office365** - Office365 tools usage and configuration
 
 ### Professional Skills
 ✅ Technical documentation  
@@ -47,29 +47,18 @@
 
 ---
 
-## 🏗️ Lab Infrastructure
-```
-Domain: companylab.local
-Network: 10.0.2.0/24 (NAT Network)
+## 🏗️ Lab Topology
 
-┌─────────────────────────────────────┐
-│  DC01 - Domain Controller           │
-│  • Windows Server 2022              │
-│  • Active Directory, DNS, DHCP      │
-│  • File & Print Server              │
-│  • IP: 10.0.2.10                    │
-│  • 4GB RAM | 2 CPU                  │
-└─────────────────────────────────────┘
-    |       │
-    |
-    │              
-┌─────────┐ 
-│ CLIENT01│  
-│ Finance │  
-│ Win10Pro│  
-│.20      │  
-└─────────┘  
-```
+**Network:** `10.0.2.0/24` (Isolated NAT Network)
+**Domain:** `companylab.local`
+
+```text
+┌─────────────────────────┐          ┌─────────────────────────┐
+│  DC01 (Server)          │          │  CLIENT01 (Workstation) │
+│  Windows Server 2022    │<-------->│  Windows 10 Enterprise  │
+│  IP: 10.0.2.10          │          │  IP: DHCP (10.0.2.x)    │
+│  (DNS, DHCP, AD DS)     │          │  (Domain Joined)        │
+└─────────────────────────┘          └─────────────────────────┘
 
 **Organizational Structure:**
 - **5 Departments:** IT, Finance, Sales, HR, Marketing
