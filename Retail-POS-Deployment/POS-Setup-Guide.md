@@ -44,9 +44,6 @@ This section details the physical configuration required for standard retail har
     3.  Set POS Config -> Peripherals -> Printer -> **COM4**.
     4.  *Test:* Run a $0.00 transaction to verify the drawer fires.
 
-> **Receipt Emulation:**
-> ![Receipt Test](images/receipt-printer-config.png)
-
 ### 🔫 Barcode Scanner (Zebra DS2208 / Honeywell Orbit)
 * **Mode:** HID Keyboard Emulation.
 * **Suffix Configuration (CR/Enter):**
@@ -61,3 +58,5 @@ This section details the physical configuration required for standard retail har
     * If the API link goes down, switch POS to "External Payment."
     * Cashier manually types the value into the EFTPOS terminal.
     * Cashier records the **Reference Number** on the POS for reconciliation.
+
+---
