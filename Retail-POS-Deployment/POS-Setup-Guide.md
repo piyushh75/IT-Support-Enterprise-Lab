@@ -3,6 +3,7 @@
 **Scope:** Standard Operating Procedure (SOP) for deploying Point-of-Sale terminals in a branch environment.
 **Software:** uniCenta oPOS v5.0 | **Backend:** MySQL 8.0
 
+> ![Unicenta-POS](images/unicenta-pos-system.png)
 ---
 
 ## 1. Pre-Installation Environment
