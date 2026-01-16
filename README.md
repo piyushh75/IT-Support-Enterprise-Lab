@@ -1,4 +1,4 @@
-# 🖥️ Enterprise IT Support & Active Directory Lab
+# 🖥️ Enterprise IT Support, Active Directory Lab & POS Deployment Lab
 
 > **Professional IT portfolio demonstrating end-to-end infrastructure management: Windows Server administration & Retail Point-of-Sale (POS) system deployment.**
 
