@@ -1,4 +1,4 @@
-# 🏪 Retail Branch POS Deployment Guide
+# 🏪 Retail POS Deployment Guide
 
 **Scope:** Standard Operating Procedure (SOP) for deploying Point-of-Sale terminals in a branch environment.
 **Software:** uniCenta oPOS v5.0 | **Backend:** MySQL 8.0
